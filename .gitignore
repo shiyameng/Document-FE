@@ -1,0 +1,13 @@
+# Ignore npm logs file
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.DS_Store
+
+# Ignore all the installed packages
+node_modules
+
+# produced by prepare in the root package.json script
+.husky
+
