@@ -15,16 +15,16 @@
   <script>
     window.$docsify = {
       name: '文档中心',
+      basePath: '',
       repo: '',
       loadSidebar: true,
       loadSidebar: 'sidebar.md',
       alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
+      '/.*/sidebar.md': '/sidebar.md'
       },
       auto2top: true,
       executeScript: true,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      routerMode: 'history',
       notFoundPage: true,
       search: 'auto',
     }
